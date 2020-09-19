@@ -25,5 +25,4 @@ production:
   <<: *default
   database: db/book_collection_production
 
-username: books
-password: <%= ENV['books'] %>
+
