@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'bookcollection#index'
+  root 'books#index'
 
   resources :books do
     member do
@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     end
   end
 
-  get 'bookcollection/index'
+  get 'books#index'
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
