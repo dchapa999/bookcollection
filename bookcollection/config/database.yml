@@ -25,5 +25,5 @@ production:
   <<: *default
   database: db/production.sqlite3
 
-username: books
-password: <%= ENV['books'] %>
+username: "books"
+password: <%= ENV["books"] %>
